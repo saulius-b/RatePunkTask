@@ -46,6 +46,18 @@ module.exports = {
         exclude: /\.module\.s(a|c)ss$/,
         use: ["style-loader", "css-loader", "sass-loader"],
       },
+      {
+        test: /\.svg$/,
+        use: [
+          {
+            loader: "file-loader",
+            options: {
+              name: "[name].[ext]",
+              outputPath: "assets/",
+            },
+          },
+        ],
+      },
     ],
   },
   resolve: {
