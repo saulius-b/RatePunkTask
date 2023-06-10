@@ -1,9 +1,13 @@
 .container {
   display: flex;
   justify-content: space-between;
-  margin: 0 400px;
-  border-bottom: 1px solid #1F343E;
+  border: 1px solid #1F343E;
+  padding: 1.5rem 0rem;
   }
+
+.imgContainer {
+  margin-left: 20rem;
+}
 
 .navContainer {
   display: flex;
@@ -11,12 +15,7 @@
   color: #434A54;
   font-size: 20px;
   font-family: 'Noto Sans', sans-serif;
-  
-  
-  .navItem {
-    
-  }
-
+  margin-right: 20rem;
 }  
 
 

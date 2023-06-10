@@ -4,9 +4,7 @@ import logo from "../../../assets/logo.svg";
 
 const Header = () => (
   <header className={styles.container}>
-    <div>
-      <img src={logo}></img>
-    </div>
+    <img src={logo} className={styles.imgContainer}></img>
     <nav className={styles.navContainer}>
       <a href="">Chrome Extension</a>
       <a href="">Price Comparison</a>
