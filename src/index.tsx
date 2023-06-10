@@ -1,10 +1,17 @@
-import Hello from "./hello";
 import React from "react";
 import ReactDOM from "react-dom";
+import Header from "./components/header/Header";
+import MainSection from "./components/main/MainSection ";
+import Footer from "./components/footer/Footer";
 
-// Your main App component
 const App: React.FC = () => {
-  return <Hello />;
+  return (
+    <>
+      <Header />
+      <MainSection />
+      <Footer />
+    </>
+  );
 };
 
 ReactDOM.render(<App />, document.getElementById("root"));
