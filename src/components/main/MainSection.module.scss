@@ -54,18 +54,27 @@
     padding: 4rem $desktop-margin-x;
     flex-direction: row;
     .referralContainer {
-      height: 42rem;
       width: 26rem;
       padding: 4rem;
       .referralTextContainer {
         padding-bottom: 2.5rem;
         .referralTextHeader {
           padding-bottom: 2rem;
+          font-size: 48px;
           line-height: 72px;
         }
         .referralTextBody {
+          font-size: 20px;
           line-height: 32px;
         }
+      }
+      .emailEntryContainer {
+        height: 140px;
+        padding-bottom: 9.5rem;
+      }
+      .referralNote {
+        font-size: 16px;
+        line-height: 32px;
       }
     }
   }
