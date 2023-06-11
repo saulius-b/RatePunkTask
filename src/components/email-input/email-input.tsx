@@ -6,7 +6,7 @@ const EmailInput: React.FC = () => {
   return (
     <div className={styles.container}>
       <div className={styles.referralEmailContainer}>
-        <img src={email}></img>
+        <img src={email} alt="email"></img>
         <input type="text" placeholder="Enter your email address" />
       </div>
       <button className={styles.referralSubmitButton}>Get Referral Link</button>
