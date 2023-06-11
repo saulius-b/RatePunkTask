@@ -47,36 +47,6 @@
     text-align: center;
     padding: 3rem 0rem;
     gap: 3rem;
-
-    .instructionsSvg {
-      padding-bottom: 2rem;
-    }
-
-    .stepContainer {
-      display: flex;
-      flex-direction: column;
-      gap: 1rem;
-      .stepNumber {
-        color: #4eb3e3;
-        font-size: 16px;
-        line-height: 24px;
-        font-weight: bold;
-        letter-spacing: 1.28px;
-        font-family: "Noto Sans", sans-serif;
-      }
-      .stepHeaderText {
-        color: #1f343e;
-        font-size: 32px;
-        line-height: 40px;
-        font-family: "Caveat Brush", cursive;
-      }
-      .stepDescription {
-        color: #1f343e;
-        font-size: 16px;
-        line-height: 24px;
-        font-family: "Noto Sans", sans-serif;
-      }
-    }
   }
 }
 
@@ -118,29 +88,6 @@
       gap: 4rem;
       padding-left: 8rem;
       text-align: left;
-      .individualStepContainer {
-        display: flex;
-        gap: 3rem;
-        .instructionsSvg {
-        }
-
-        .stepContainer {
-          max-width: 16rem;
-          .stepNumber {
-            font-size: 20px;
-            line-height: 32px;
-            letter-spacing: 1.6px;
-          }
-          .stepHeaderText {
-            font-size: 32px;
-            line-height: 48px;
-          }
-          .stepDescription {
-            font-size: 20px;
-            line-height: 32px;
-          }
-        }
-      }
     }
   }
 }
