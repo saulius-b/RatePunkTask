@@ -1,10 +1,12 @@
 import { Dispatch, SetStateAction } from "react";
+import nextId from "react-id-generator";
 
 interface handleSubmitProps {
   email: string;
   setValidationMessage: Dispatch<SetStateAction<string>>;
   setEmail: Dispatch<SetStateAction<string>>;
   setIsEmailValid: Dispatch<SetStateAction<boolean | null>>;
+  setReferralCode: Dispatch<SetStateAction<string>>;
 }
 
 const isValidEmail = (email: string) => {
@@ -17,6 +19,7 @@ const handleSubmit = ({
   setValidationMessage,
   setEmail,
   setIsEmailValid,
+  setReferralCode,
 }: handleSubmitProps) => {
   if (email.trim() === "" || !isValidEmail(email)) {
     setIsEmailValid(false);
@@ -30,14 +33,14 @@ const handleSubmit = ({
     method: "PUT",
     headers: {
       "Content-Type": "application/json",
-      "X-Access-Key":
-        "$2b$10$Tg6uicdN2b6vSd4FphaSSuL.Vvj6BSSRfzDpoZNAl0hID29HzpZzO",
+      "X-Access-Key": "$2b$10$Tg6uicdN2b6vSd4FphaSSuL.Vvj6BSSRfzDpoZNAl0hID29HzpZzO",
     },
     body: data,
   })
     .then((response) => {
       if (response.ok) {
         setEmail("");
+        setReferralCode(`https://ratepunk.com/${nextId()}`);
         setIsEmailValid(true);
       } else {
         setValidationMessage("Failed to save email. Please try again.");
