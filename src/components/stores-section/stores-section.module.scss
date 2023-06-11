@@ -33,6 +33,7 @@
     display: flex;
     padding: 2rem $desktop-margin-x;
     gap: 2rem;
+    justify-content: center;
     .storeComponentContainer {
       flex-direction: row;
       padding-bottom: 0rem;

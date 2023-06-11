@@ -61,6 +61,7 @@
   .container {
     padding: 4rem $desktop-margin-x;
     flex-direction: row;
+    justify-content: center;
     .referralContainer {
       width: 26rem;
       padding: 4rem;

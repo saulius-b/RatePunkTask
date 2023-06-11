@@ -1,12 +1,11 @@
-@import '../../index.scss';
+@import "../../index.scss";
 
 .container {
   display: flex;
   justify-content: space-between;
-  border: 1px solid #1F343E;
+  border: 1px solid #1f343e;
   padding: 0.75rem $mobile-margin-x;
-  }
-
+}
 
 @media (min-width: 768px) {
   .container {
@@ -14,13 +13,12 @@
     .navContainer {
       display: flex;
       gap: 3.25rem;
-      color: #434A54;
+      color: #434a54;
       font-size: 20px;
-      font-family: 'Noto Sans', sans-serif;
-    }  
+      font-family: "Noto Sans", sans-serif;
+    }
   }
 }
-
 
 @media (min-width: 1200px) {
   .container {
@@ -28,11 +26,9 @@
     .navContainer {
       display: flex;
       gap: 3.25rem;
-      color: #434A54;
+      color: #434a54;
       font-size: 20px;
-      font-family: 'Noto Sans', sans-serif;
-    }  
+      font-family: "Noto Sans", sans-serif;
+    }
   }
 }
-
-  
