@@ -3,6 +3,7 @@
 .container {
   background-color: #f8cc5d;
   border: $default-border;
+  border-bottom: none;
   padding: 2rem $mobile-margin-x;
   display: flex;
   flex-direction: column;

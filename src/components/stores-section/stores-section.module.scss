@@ -1,0 +1,22 @@
+@import "../../index.scss";
+
+.container {
+  background-color: #45565e;
+  text-align: center;
+  padding: 2rem;
+  .reviewsContainer {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    .starsContainer {
+      display: flex;
+      gap: 0.25rem;
+    }
+    .reviewsText {
+      font-size: 16px;
+      line-height: 24px;
+      font-family: "Noto Sans", sans-serif;
+      color: #ffffff;
+    }
+  }
+}
