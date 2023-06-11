@@ -40,7 +40,7 @@ const Footer = () => (
       </div>
     </div>
     <div>
-      <div className={styles.headerStyling}>Contact</div>
+      <div className={styles.headerStyling}>CONTACT</div>
       <div className={styles.emailContainer}>
         <img src={email}></img>
         <a href="hi@ratepunk.com" className={styles.email}>
@@ -48,7 +48,7 @@ const Footer = () => (
         </a>
       </div>
 
-      <div className={styles.headerStyling}>Social</div>
+      <div className={styles.headerStyling}>SOCIAL</div>
       <div className={styles.socialIconsContainer}>
         <a href="#" target="_blank" className={styles.socialIconContainer}>
           <img src={instagram} alt="instagram"></img>
