@@ -7,6 +7,27 @@
   .firstNavItem {
     color: #4eb3e3;
   }
+  .openedNavMenu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 31vh;
+    width: 100vw;
+    background-color: #ffffff;
+    border-bottom: $default-border;
+    .buttonRow {
+      display: flex;
+      justify-content: space-between;
+      padding: 0.75rem 1rem 2rem 1rem;
+    }
+    .navigationItemContainer {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      line-height: 40px;
+      padding-left: 1rem;
+    }
+  }
 }
 
 @media (min-width: 768px) {
