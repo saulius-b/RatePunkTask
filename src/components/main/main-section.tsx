@@ -4,6 +4,7 @@ import invite from "../../../assets/svg/invite.svg";
 import collectCoins from "../../../assets/svg/collect-coins.svg";
 import voucher from "../../../assets/svg/voucher.svg";
 import ReferralStep from "../referral-step/referral-step";
+import EmailInput from "../email-input/email-input";
 
 const MainSection = () => {
   return (
@@ -19,7 +20,9 @@ const MainSection = () => {
             cash-out at 20 coins.`}
           </div>
         </div>
-        <div className={styles.emailEntryContainer}>email entry</div>
+        <div className={styles.emailEntryContainer}>
+          <EmailInput />
+        </div>
         <div className={styles.referralNote}>Limits on max rewards apply.</div>
       </section>
       <section className={styles.instructionsContainer}>
