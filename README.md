@@ -5,12 +5,12 @@ When the user enters a valid email and clicks on "Get referral link", the email 
 
 JSONBIN.IO "X-Access-Key" is left in the code on purpose, so that anyone can run the project an test it.
 
-## How to development mode
+## How to run development mode
   type npm install
   
   type npm run start and when webpack successfully compiles, click on the given address to launch the project in your browser
   
- ## How to test build
+ ## How to test the build
   type npm run build
   
   type npx serve build and when webpack successfully compiles, click on the given address
