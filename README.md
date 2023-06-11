@@ -1,5 +1,5 @@
 # Ratepunk task
-Project created with my template using Webpack with React, TypeScript, EsLinter, SASS modules.
+Project created with my template using Webpack with React, TypeScript, EsLinter, SASS modules - https://github.com/saulius-b/Webpack-React-TS-EsLinter-SASS-template
 
 When the user enters a valid email and clicks on "Get referral link", the email is sent to JSONBIN.IO, and saved there. Each other submit overwrites the current stored email. After successfully saving the email, the user can press "Copy Url" button, which copies the recieved referral code to the clipboard and resets the form. Each succesfull email sent generates a different referral code.
 
