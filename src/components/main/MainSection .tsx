@@ -8,7 +8,7 @@ import ReferralStep from "../referralStep/ReferralStep";
 const MainSection = () => {
   return (
     <main className={styles.container}>
-      <div className={styles.referralContainer}>
+      <section className={styles.referralContainer}>
         <div className={styles.referralTextContainer}>
           <div className={styles.referralTextHeader}>
             REFER FRIENDS AND GET REWARDS
@@ -21,8 +21,8 @@ const MainSection = () => {
         </div>
         <div className={styles.emailEntryContainer}>email entry</div>
         <div className={styles.referralNote}>Limits on max rewards apply.</div>
-      </div>
-      <div className={styles.instructionsContainer}>
+      </section>
+      <section className={styles.instructionsContainer}>
         <ReferralStep
           stepNumber={1}
           stepHeaderText={"INVITE FRIENDS"}
@@ -45,7 +45,7 @@ const MainSection = () => {
           }
           svgString={voucher}
         />
-      </div>
+      </section>
     </main>
   );
 };
