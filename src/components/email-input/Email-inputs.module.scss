@@ -3,6 +3,19 @@
 .container {
   padding-top: 1.5rem;
   padding-bottom: 4.5rem;
+  .successMessageContainer {
+    display: flex;
+    .successMessageText {
+      font-size: 16px;
+      line-height: 24px;
+      font-weight: bold;
+    }
+  }
+  .errorMessage {
+    color: #ed6f82;
+    font-size: 12px;
+    padding-bottom: 0.5rem;
+  }
   .referralEmailContainer {
     width: 100%;
     background-color: #ffffff;
@@ -44,6 +57,7 @@
     font-weight: bold;
     padding: 1rem 0;
     margin-top: 1rem;
+    cursor: pointer;
   }
 }
 
