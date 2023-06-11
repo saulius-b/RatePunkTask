@@ -6,6 +6,35 @@
   padding: 2rem $mobile-margin-x;
   display: flex;
   flex-direction: column;
+  .referralContainer {
+    background-color: #f8f4f9;
+    border: $default-border;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .referralTextContainer {
+      .referralTextHeader {
+        color: #1f343e;
+        font-size: 48px;
+        font-family: "Caveat Brush", cursive;
+      }
+      .referralTextBody {
+        color: #1f343e;
+        font-size: 20px;
+        font-family: "Noto Sans", sans-serif;
+      }
+    }
+    .referralNote {
+      color: #6d7a80;
+      font-size: 16px;
+      font-family: "Noto Sans", sans-serif;
+    }
+  }
+  .emailEntryContainer {
+    height: 170px;
+    background-color: aqua;
+  }
 }
 
 @media (min-width: 768px) {
@@ -18,5 +47,20 @@
   .container {
     padding: 4rem $desktop-margin-x;
     flex-direction: row;
+    .referralContainer {
+      height: 42rem;
+      width: 26rem;
+      padding: 4rem;
+      .referralTextContainer {
+        padding-bottom: 2.5rem;
+        .referralTextHeader {
+          padding-bottom: 2rem;
+          line-height: 72px;
+        }
+        .referralTextBody {
+          line-height: 32px;
+        }
+      }
+    }
   }
 }

@@ -1,12 +1,13 @@
-@import '~normalize.css';
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@import "~normalize.css";
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap");
 
 a {
-    text-decoration: none;
-    color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
 
 $mobile-margin-x: 1rem;
 $tablet-margin-x: 2.5rem;
 $desktop-margin-x: 25rem;
-$default-border: 1px solid #1F343E;
+$default-border: 1px solid #1f343e;
