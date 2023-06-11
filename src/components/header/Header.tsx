@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./Header.module.scss";
+import styles from "./header.module.scss";
 import logo from "../../../assets/svg/logo.svg";
 import menu from "../../../assets/svg/menu.svg";
 import { useMediaQuery } from "react-responsive";

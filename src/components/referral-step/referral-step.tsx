@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./ReferralStep.module.scss";
+import styles from "./referral-step.module.scss";
 
 interface ReferralStepProps {
   stepNumber: number;

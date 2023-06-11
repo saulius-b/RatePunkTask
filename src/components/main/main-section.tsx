@@ -1,9 +1,9 @@
 import React from "react";
-import styles from "./MainSection.module.scss";
+import styles from "./main-section.module.scss";
 import invite from "../../../assets/svg/invite.svg";
 import collectCoins from "../../../assets/svg/collect-coins.svg";
 import voucher from "../../../assets/svg/voucher.svg";
-import ReferralStep from "../referralStep/ReferralStep";
+import ReferralStep from "../referral-step/referral-step";
 
 const MainSection = () => {
   return (
