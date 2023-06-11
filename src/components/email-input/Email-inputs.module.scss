@@ -21,6 +21,10 @@
       color: #6d7a80;
       font-family: "Noto Sans", sans-serif;
     }
+    textarea:focus,
+    input:focus {
+      outline: none;
+    }
     img {
       padding-left: 1rem;
       padding-right: 1rem;
