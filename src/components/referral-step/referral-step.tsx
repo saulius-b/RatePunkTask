@@ -13,7 +13,7 @@ const ReferralStep: React.FC<ReferralStepProps> = ({
   stepHeaderText,
   stepDescription,
   svgString,
-}: ReferralStepProps) => {
+}) => {
   return (
     <div className={styles.individualStepContainer}>
       <img
