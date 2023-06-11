@@ -4,6 +4,9 @@
   display: flex;
   justify-content: space-between;
   padding: 0.75rem $mobile-margin-x;
+  .firstNavItem {
+    color: #4eb3e3;
+  }
 }
 
 @media (min-width: 768px) {

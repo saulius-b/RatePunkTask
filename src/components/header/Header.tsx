@@ -10,7 +10,9 @@ const Header = () => {
     <img src={menu} alt="Menu" />
   ) : (
     <nav className={styles.navContainer}>
-      <a href="">Chrome Extension</a>
+      <a href="" className={styles.firstNavItem}>
+        Chrome Extension
+      </a>
       <a href="">Price Comparison</a>
       <a href="">Blog</a>
     </nav>
