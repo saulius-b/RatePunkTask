@@ -43,7 +43,7 @@ const Footer = () => (
       <div className={styles.headerStyling}>CONTACT</div>
       <div className={styles.emailContainer}>
         <img src={email}></img>
-        <a href="hi@ratepunk.com" className={styles.email}>
+        <a href="mailto:hi@ratepunk.com" className={styles.email}>
           hi@ratepunk.com
         </a>
       </div>
