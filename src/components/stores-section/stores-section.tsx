@@ -9,8 +9,16 @@ const StoresSection: React.FC = () => {
   return (
     <div className={styles.container}>
       <div className={styles.storeComponentContainer}>
-        <StoreComponent svgString={chrome} storeName={"chrome web store"} />
-        <StoreComponent svgString={apple} storeName={"apple app store"} />
+        <StoreComponent
+          svgString={chrome}
+          storeName="chrome web store"
+          storeLink="https://chrome.google.com/webstore/detail/ratepunk-same-hotel-way-c/gdaioanblcnghddimngklkhgcbomfdck?utm_source=ratepunk"
+        />
+        <StoreComponent
+          svgString={apple}
+          storeName="apple app store"
+          storeLink="https://apps.apple.com/app/ratepunk/id1607823726"
+        />
       </div>
       <div className={styles.reviewsContainer}>
         <div className={styles.starsContainer}>

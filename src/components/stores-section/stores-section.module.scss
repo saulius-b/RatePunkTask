@@ -7,6 +7,7 @@
   .storeComponentContainer {
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 1rem;
     padding-bottom: 1.5rem;
   }
@@ -23,6 +24,27 @@
       line-height: 24px;
       font-family: "Noto Sans", sans-serif;
       color: #ffffff;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    display: flex;
+    padding: 2rem $desktop-margin-x;
+    gap: 2rem;
+    .storeComponentContainer {
+      flex-direction: row;
+      padding-bottom: 0rem;
+    }
+    .reviewsContainer {
+      align-items: center;
+      .starsContainer {
+        flex-direction: row;
+      }
+      .reviewsText {
+        font-size: 20px;
+      }
     }
   }
 }

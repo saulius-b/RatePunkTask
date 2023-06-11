@@ -4,15 +4,17 @@ import styles from "./store-component.module.scss";
 interface StoreComponentProps {
   svgString: string;
   storeName: string;
+  storeLink: string;
 }
 
 const StoreComponent: React.FC<StoreComponentProps> = ({
   svgString,
   storeName,
+  storeLink,
 }) => {
   return (
     <a
-      href="https://chrome.google.com/webstore/detail/ratepunk-same-hotel-way-c/gdaioanblcnghddimngklkhgcbomfdck?utm_source=ratepunk"
+      href={storeLink}
       target="_blank"
       rel="noopener noreferrer"
       className={styles.container}
