@@ -114,5 +114,33 @@
         line-height: 32px;
       }
     }
+    .instructionsContainer {
+      gap: 4rem;
+      padding-left: 8rem;
+      text-align: left;
+      .individualStepContainer {
+        display: flex;
+        gap: 3rem;
+        .instructionsSvg {
+        }
+
+        .stepContainer {
+          max-width: 16rem;
+          .stepNumber {
+            font-size: 20px;
+            line-height: 32px;
+            letter-spacing: 1.6px;
+          }
+          .stepHeaderText {
+            font-size: 32px;
+            line-height: 48px;
+          }
+          .stepDescription {
+            font-size: 20px;
+            line-height: 32px;
+          }
+        }
+      }
+    }
   }
 }
