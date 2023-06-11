@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./Header.module.scss";
-import logo from "../../../assets/logo.svg";
-import menu from "../../../assets/menu.svg";
+import logo from "../../../assets/svg/logo.svg";
+import menu from "../../../assets/svg/menu.svg";
 import { useMediaQuery } from "react-responsive";
 
 const Header = () => {

@@ -41,6 +41,23 @@
       font-family: "Noto Sans", sans-serif;
     }
   }
+  .instructionsContainer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 3rem 0rem;
+    gap: 3rem;
+
+    .stepCounter {
+      color: #4eb3e3;
+      font-size: 16px;
+      line-height: 24px;
+    }
+    .stepHeaderText {
+    }
+    .stepDescription {
+    }
+  }
 }
 
 @media (min-width: 768px) {
