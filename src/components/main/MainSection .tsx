@@ -22,9 +22,9 @@ const MainSection = () => (
     </div>
     <div className={styles.instructionsContainer}>
       <div>
-        <img src={invite} alt="Invite"></img>
-        <div>
-          <div className={styles.stepCounter}>STEP 1</div>
+        <img className={styles.instructionsSvg} src={invite} alt="Invite"></img>
+        <div className={styles.stepContainer}>
+          <div className={styles.stepNumber}>STEP 1</div>
           <div className={styles.stepHeaderText}>INVITE FRIENDS</div>
           <div className={styles.stepDescription}>
             Refer friends with your unique referral link.
@@ -33,10 +33,10 @@ const MainSection = () => (
       </div>
       <div>
         <img src={collectCoins} alt="Collect coins"></img>
-        <div>
-          <div>STEP 2</div>
-          <div>COLLECT COINS</div>
-          <div>
+        <div className={styles.stepContainer}>
+          <div className={styles.stepNumber}>STEP 2</div>
+          <div className={styles.stepHeaderText}>COLLECT COINS</div>
+          <div className={styles.stepDescription}>
             Get 1 coin for each friend that installs our extension using your
             referral link.
           </div>
@@ -44,10 +44,10 @@ const MainSection = () => (
       </div>
       <div>
         <img src={voucher} alt="Voucher"></img>
-        <div>
-          <div>STEP 3</div>
-          <div>GET VOUCHER</div>
-          <div>
+        <div className={styles.stepContainer}>
+          <div className={styles.stepNumber}>STEP 3</div>
+          <div className={styles.stepHeaderText}>GET VOUCHER</div>
+          <div className={styles.stepDescription}>
             Redeem for a $20 hotel booking voucher once you collect 20 coins.
           </div>
         </div>

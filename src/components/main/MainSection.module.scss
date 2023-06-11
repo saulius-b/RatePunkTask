@@ -48,14 +48,34 @@
     padding: 3rem 0rem;
     gap: 3rem;
 
-    .stepCounter {
-      color: #4eb3e3;
-      font-size: 16px;
-      line-height: 24px;
+    .instructionsSvg {
+      padding-bottom: 2rem;
     }
-    .stepHeaderText {
-    }
-    .stepDescription {
+
+    .stepContainer {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      .stepNumber {
+        color: #4eb3e3;
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: bold;
+        letter-spacing: 1.28px;
+        font-family: "Noto Sans", sans-serif;
+      }
+      .stepHeaderText {
+        color: #1f343e;
+        font-size: 32px;
+        line-height: 40px;
+        font-family: "Caveat Brush", cursive;
+      }
+      .stepDescription {
+        color: #1f343e;
+        font-size: 16px;
+        line-height: 24px;
+        font-family: "Noto Sans", sans-serif;
+      }
     }
   }
 }
